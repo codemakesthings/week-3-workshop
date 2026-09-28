@@ -25,11 +25,13 @@
     <header class="hero">
         <div class="content-container">
             <img src="img/logo.png" alt="Nucamp logo" />
-            <div class="hero-text">
+            <div class="hero-text col">
                 <h1>Nucamp</h1>
                 <h2>a better way to camp</h2>
             </div>
-
+            <div class="mt-4">
+                <a class="btn-lg btn-primary text-nowrap" href="#reserveForm" role="button">Reserve Campsite</a>
+            </div>
         </div>
     </header>
 
@@ -80,26 +82,79 @@
             <div class="content-heading">
                 <h2>Featured Campsites</h2>
             </div>
-            <div>
-                <h3>React Lake Campground</h3>
-                <p>Nestled in the foothills of the Chrome Mountains, this campground on the shores of the pristine React Lake is a favorite for fly fishers.</p>
-
+            <div class="d-flex align-items-center">
+                <div class="align-self-center">
+                    <h3>React Lake Campground</h3>
+                    <p>Nestled in the foothills of the Chrome Mountains, this campground on the shores of the pristine React Lake is a favorite for fly fishers.</p>
+                </div>
+                <img class="img-thumbnail ml-3" src="img/react-lake-thumb.jpg" alt="React Lake" />
             </div>
         </section>
 
         <!-- partner section -->
         <div class="content-row">
-                <div class="content-heading align-right">
-                    <h2>Our Community Partners</h2>
-                </div>
-                <div class="media-object">
-                    <img class="thumbnail" src="img/bootstrap-thumb.png" alt="Bootstrap Outfitters" />
-                    <div class="media-text">
-                        <h3>Bootstrap Outfitters</h3>
-                        <p>Bootstrap Outfitters supplies you with gear you need at prices you can't beat.</p>
-                    </div>
+            <div class="content-heading align-right">
+                <h2>Our Community Partners</h2>
+            </div>
+            <div class="media-object">
+                <img class="thumbnail" src="img/bootstrap-thumb.png" alt="Bootstrap Outfitters" />
+                <div class="media-text">
+                    <h3>Bootstrap Outfitters</h3>
+                    <p>Bootstrap Outfitters supplies you with gear you need at prices you can't beat.</p>
                 </div>
             </div>
+        </div>
+        <!-- Form Section-->
+        <div class="row row-content">
+            <div class="col-sm-9 mx-auto">
+                <div class="card">
+                    <div class="card-header bg-info text-white">
+                         <h3>Reserve a Campsite</h3>
+                    </div>
+                    <div class="card-body">
+                        <form action="" id="reserveForm">
+                            <div class="row mb-3">
+                                <div class="col-xs-12 col-sm-6">
+                                     <label for="number" class="form-label">Number of Campers</label>
+                                </div>
+                                <div class="col-xs-12 col-sm-6">
+                                    <select name="number" id="number" class="form-control">
+                                        <option value="">Select</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                        <option value="6">6</option>
+                                    </select>
+                                </div>
+
+
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col-xs-12 col-sm-6">
+                                    <label for="date" class="form-label">Date</label>
+                                </div>
+                                <div class="col-xs-12 col-sm-6">
+                                     <input class="form-control" type="date" id="date"/>
+                                </div>
+
+
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col">
+                                     <button class="btn btn-primary" type="submit">Search</button>
+                                </div>
+
+                            </div>
+                        </form>
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
 
     </main>
 
