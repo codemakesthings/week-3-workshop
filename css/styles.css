@@ -27,3 +27,7 @@ h1, h2, h3 {
 .navbar {
     background-color: #901CAD;
 }
+
+address {
+    font-style: normal;
+}
