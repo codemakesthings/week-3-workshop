@@ -5,11 +5,10 @@
     border-bottom: 1px ridge;
     min-height: 200px;
 }
-
-.content-heading {
-    flex: 0 0 25%;
-}
-.content-heading .align-right {
+.content-heading.align-right {
     order: 1;
     text-align: right;
+}
+.content-heading {
+    flex: 0 0 25%;
 }
