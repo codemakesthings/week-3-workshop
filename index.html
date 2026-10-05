@@ -39,7 +39,7 @@
             <div class="modal fade" id="formmodal" tabindex="-1" aria-labelledby="formmodalLabel" aria-hidden="true">
               <div class="modal-dialog">
                 <div class="modal-content">
-                  <div class="modal-header bg-primary">
+                  <div class="modal-header">
                     <h1 class="modal-title fs-5" id="formmodalLabel">Reserve a Campsite</h1>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                   </div>
@@ -236,7 +236,7 @@
         </section>
 
         <!-- partner section -->
-        <div class="content-row border-bottom">
+        <section class="content-row border-bottom">
             <div class="content-heading align-right">
                 <h2>Our Community Partners</h2>
             </div>
@@ -247,58 +247,25 @@
                     <p>Bootstrap Outfitters supplies you with gear you need at prices you can't beat.</p>
                 </div>
             </div>
-        </div>
-        <!-- Form Section-->
-        <!--<div class="content-row">
-            <div class="col-sm-9 mx-auto">
-                <div class="card">
-                    <div class="card-header bg-info text-white">
-                         <h3>Reserve a Campsite</h3>
-                    </div>
-                    <div class="card-body">
-                        <form action="post" id="reserveForm">
-                            <div class="row mb-3">
-                                <div class="col-xs-12 col-sm-6">
-                                     <label for="number" class="form-label">Number of Campers</label>
-                                </div>
-                                <div class="col-xs-12 col-sm-6">
-                                    <select name="number" id="number" class="form-control">
-                                        <option value="">Select</option>
-                                        <option value="1">1</option>
-                                        <option value="2">2</option>
-                                        <option value="3">3</option>
-                                        <option value="4">4</option>
-                                        <option value="5">5</option>
-                                        <option value="6">6</option>
-                                    </select>
-                                </div>
 
+        </section>
+        <section class="row content-row align-items-start review-section mb-3 mt-3">
+            <div class="col-sm-4 col-md-3 order-sm-first text-sm-end">
+                <h2>What Are Happy Campers Saying?</h2>
 
-                            </div>
-                            <div class="row mb-3">
-                                <div class="col-xs-12 col-sm-6">
-                                    <label for="date" class="form-label">Date</label>
-                                </div>
-                                <div class="col-xs-12 col-sm-6">
-                                     <input class="form-control" type="date" id="date"/>
-                                </div>
-
-
-                            </div>
-                            <div class="row mb-3">
-                                <div class="col">
-                                     <button class="btn btn-primary" type="submit">Search</button>
-                                </div>
-
-                            </div>
-                        </form>
-                    </div>
-
-
-
-                </div>
             </div>
-        </div>-->
+            <div class="col ms-lg-5">
+                <img src="img/happy-campers.jpg" alt="Happy campers" class="img-thumbnail img-fluid">
+            </div>
+            <div class="col">
+                <h2>So Worth It!</h2>
+                <p>"We had a blast as we embarked on a wild adventure amidst nature's embrace, where s'mores and laughter under starlit skies became our daily ritual, creating memories that will last us forever."</p>
+            </div>
+            <div class="d-flex justify-content-center mt-5">
+                <button type="button" class="campsite-btn"data-bs-toggle="modal" data-bs-target="#formmodal">Reserve Campsite</button>
+            </div>
+        </section>
+
 
     </main>
 
