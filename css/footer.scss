@@ -1,3 +1,5 @@
+@use "styles" as *;
+
 .footer-grid {
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
@@ -17,6 +19,6 @@
 
 
 .site-footer {
-    background-image: linear-gradient(#CEC8FF, white);
+    background-image: linear-gradient($color-pale, white);
     padding: 20px 0;
 }
