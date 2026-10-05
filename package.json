@@ -1,0 +1,22 @@
+{
+  "name": "nucampsite",
+  "version": "1.0.0",
+  "source": "index.html",
+  "scripts": {
+     "start": "parcel --open",
+     "build": "parcel build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "A fictional campsites review website.",
+
+  "devDependencies": {
+    "parcel": "^2.16.4"
+  },
+  "dependencies": {
+    "bootstrap": "^5.2.3",
+    "bootstrap-social": "^5.1.1",
+    "font-awesome": "^4.7.0"
+  }
+}
